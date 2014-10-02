@@ -1,0 +1,1 @@
+/* include your JS general functions here */
