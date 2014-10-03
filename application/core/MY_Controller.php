@@ -26,10 +26,10 @@ class MY_Controller extends CI_Controller
         parent::__construct();
 
          //including css
-        $this->css["style"]    = base_url('assets/css/style.css');
+        $this->css["style"] = base_url('assets/css/style.css');
 
          //including js
-        $this->js["general"]        = base_url('assets/js/general.js');
+        $this->js["general"] = base_url('assets/js/general.js');
     }
     
     public function addData($arrayData=array())
